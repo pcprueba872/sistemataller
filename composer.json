@@ -1,0 +1,21 @@
+{
+    "name": "usuario/prueba",
+    "description": "sistema taller",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Usuario\\Prueba\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "luis"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "endroid/qr-code": "4.7",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
